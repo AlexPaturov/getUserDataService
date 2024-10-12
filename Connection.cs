@@ -135,7 +135,7 @@ namespace GetUserDataServiceGUI
                     }
                     else                                                                        // формирование для клиента сообщения об ошибке в его запросе.
                     {
-                        Exception ex = new Exception("Ошибка обработки запроса");               // Согласно спецификации.
+                        Exception ex = new Exception("Custom request format error");               // Согласно спецификации.
                         byte[] errorByteArr = XMLFormatter.GetError(ex, 2);                     // Отформатировал ошибку в XML формат. 
                         ARMsocket.Send(errorByteArr, errorByteArr.Length, SocketFlags.None);    // Отправляем в АРМ весов XML в виде byte[].
                         logger.Error(Encoding.GetEncoding(1251).GetString(errorByteArr));       // пишу ответ для арма весов.

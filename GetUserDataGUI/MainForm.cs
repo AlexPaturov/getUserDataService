@@ -369,10 +369,9 @@ namespace GetUserDataServiceGUI
             // 
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(16, 91);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(12, 74);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(120, 26);
+            this.label2.Size = new System.Drawing.Size(90, 21);
             this.label2.TabIndex = 2;
             this.label2.Text = "client port";
             // 
@@ -380,10 +379,9 @@ namespace GetUserDataServiceGUI
             // 
             this.labelRemoteHost.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.labelRemoteHost.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelRemoteHost.Location = new System.Drawing.Point(16, 49);
-            this.labelRemoteHost.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelRemoteHost.Location = new System.Drawing.Point(12, 40);
             this.labelRemoteHost.Name = "labelRemoteHost";
-            this.labelRemoteHost.Size = new System.Drawing.Size(120, 26);
+            this.labelRemoteHost.Size = new System.Drawing.Size(90, 21);
             this.labelRemoteHost.TabIndex = 8;
             this.labelRemoteHost.Text = "client host";
             // 
@@ -393,10 +391,9 @@ namespace GetUserDataServiceGUI
             this.buttonStart.BackColor = System.Drawing.SystemColors.Control;
             this.buttonStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonStart.Location = new System.Drawing.Point(111, 452);
-            this.buttonStart.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonStart.Location = new System.Drawing.Point(83, 367);
             this.buttonStart.Name = "buttonStart";
-            this.buttonStart.Size = new System.Drawing.Size(171, 37);
+            this.buttonStart.Size = new System.Drawing.Size(128, 30);
             this.buttonStart.TabIndex = 7;
             this.buttonStart.Text = "Start";
             this.buttonStart.UseVisualStyleBackColor = true;
@@ -408,10 +405,9 @@ namespace GetUserDataServiceGUI
             this.buttonStop.Enabled = false;
             this.buttonStop.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonStop.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonStop.Location = new System.Drawing.Point(332, 452);
-            this.buttonStop.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonStop.Location = new System.Drawing.Point(252, 367);
             this.buttonStop.Name = "buttonStop";
-            this.buttonStop.Size = new System.Drawing.Size(127, 37);
+            this.buttonStop.Size = new System.Drawing.Size(95, 30);
             this.buttonStop.TabIndex = 9;
             this.buttonStop.Text = "Stop";
             this.buttonStop.UseVisualStyleBackColor = true;
@@ -419,28 +415,24 @@ namespace GetUserDataServiceGUI
             // 
             // listBoxInfoTrace
             // 
-            this.listBoxInfoTrace.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.listBoxInfoTrace.BackColor = System.Drawing.SystemColors.Control;
+            this.listBoxInfoTrace.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.listBoxInfoTrace.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBoxInfoTrace.FormattingEnabled = true;
             this.listBoxInfoTrace.HorizontalScrollbar = true;
-            this.listBoxInfoTrace.ItemHeight = 16;
-            this.listBoxInfoTrace.Location = new System.Drawing.Point(16, 175);
-            this.listBoxInfoTrace.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listBoxInfoTrace.Location = new System.Drawing.Point(12, 142);
             this.listBoxInfoTrace.Name = "listBoxInfoTrace";
             this.listBoxInfoTrace.ScrollAlwaysVisible = true;
-            this.listBoxInfoTrace.Size = new System.Drawing.Size(979, 260);
+            this.listBoxInfoTrace.Size = new System.Drawing.Size(735, 210);
             this.listBoxInfoTrace.TabIndex = 13;
             // 
             // buttonRefresh
             // 
             this.buttonRefresh.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRefresh.Location = new System.Drawing.Point(908, 452);
-            this.buttonRefresh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonRefresh.Location = new System.Drawing.Point(681, 367);
             this.buttonRefresh.Name = "buttonRefresh";
-            this.buttonRefresh.Size = new System.Drawing.Size(85, 37);
+            this.buttonRefresh.Size = new System.Drawing.Size(64, 30);
             this.buttonRefresh.TabIndex = 14;
             this.buttonRefresh.Text = "Refresh";
             this.buttonRefresh.UseVisualStyleBackColor = true;
@@ -451,10 +443,9 @@ namespace GetUserDataServiceGUI
             this.buttonClearLog.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.buttonClearLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonClearLog.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonClearLog.Location = new System.Drawing.Point(22, 452);
-            this.buttonClearLog.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonClearLog.Location = new System.Drawing.Point(16, 367);
             this.buttonClearLog.Name = "buttonClearLog";
-            this.buttonClearLog.Size = new System.Drawing.Size(83, 37);
+            this.buttonClearLog.Size = new System.Drawing.Size(62, 30);
             this.buttonClearLog.TabIndex = 8;
             this.buttonClearLog.Text = "Clear";
             this.buttonClearLog.UseVisualStyleBackColor = true;
@@ -467,10 +458,9 @@ namespace GetUserDataServiceGUI
             this.btnCloseForm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCloseForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.btnCloseForm.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnCloseForm.Location = new System.Drawing.Point(947, 1);
-            this.btnCloseForm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCloseForm.Location = new System.Drawing.Point(710, 1);
             this.btnCloseForm.Name = "btnCloseForm";
-            this.btnCloseForm.Size = new System.Drawing.Size(64, 32);
+            this.btnCloseForm.Size = new System.Drawing.Size(48, 26);
             this.btnCloseForm.TabIndex = 19;
             this.btnCloseForm.Text = "X";
             this.btnCloseForm.UseVisualStyleBackColor = false;
@@ -487,9 +477,8 @@ namespace GetUserDataServiceGUI
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label5.Location = new System.Drawing.Point(1, 1);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(883, 32);
+            this.label5.Size = new System.Drawing.Size(662, 26);
             this.label5.TabIndex = 20;
             this.label5.Text = "Get User Data";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -500,28 +489,27 @@ namespace GetUserDataServiceGUI
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Silver;
-            this.panel1.Location = new System.Drawing.Point(-1, 34);
+            this.panel1.Location = new System.Drawing.Point(-1, 28);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1, 383);
+            this.panel1.Size = new System.Drawing.Size(1, 311);
             this.panel1.TabIndex = 21;
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Silver;
-            this.panel4.Location = new System.Drawing.Point(0, 37);
+            this.panel4.Location = new System.Drawing.Point(0, 30);
             this.panel4.Margin = new System.Windows.Forms.Padding(0);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1, 423);
+            this.panel4.Size = new System.Drawing.Size(1, 344);
             this.panel4.TabIndex = 23;
             // 
             // labelSerialTX
             // 
             this.labelSerialTX.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.labelSerialTX.Location = new System.Drawing.Point(117, 137);
-            this.labelSerialTX.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelSerialTX.Location = new System.Drawing.Point(88, 111);
             this.labelSerialTX.Name = "labelSerialTX";
-            this.labelSerialTX.Size = new System.Drawing.Size(120, 28);
+            this.labelSerialTX.Size = new System.Drawing.Size(90, 23);
             this.labelSerialTX.TabIndex = 24;
             this.labelSerialTX.Text = "0";
             this.labelSerialTX.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -529,10 +517,9 @@ namespace GetUserDataServiceGUI
             // labelRxSerial
             // 
             this.labelRxSerial.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.labelRxSerial.Location = new System.Drawing.Point(553, 136);
-            this.labelRxSerial.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelRxSerial.Location = new System.Drawing.Point(415, 110);
             this.labelRxSerial.Name = "labelRxSerial";
-            this.labelRxSerial.Size = new System.Drawing.Size(121, 28);
+            this.labelRxSerial.Size = new System.Drawing.Size(91, 23);
             this.labelRxSerial.TabIndex = 25;
             this.labelRxSerial.Text = "0";
             this.labelRxSerial.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -541,10 +528,9 @@ namespace GetUserDataServiceGUI
             // 
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label6.Location = new System.Drawing.Point(16, 137);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(12, 111);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(88, 28);
+            this.label6.Size = new System.Drawing.Size(66, 23);
             this.label6.TabIndex = 26;
             this.label6.Text = "SerTX:";
             // 
@@ -552,10 +538,9 @@ namespace GetUserDataServiceGUI
             // 
             this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label7.Location = new System.Drawing.Point(463, 137);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(347, 111);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(83, 28);
+            this.label7.Size = new System.Drawing.Size(62, 23);
             this.label7.TabIndex = 27;
             this.label7.Text = "SerRX:";
             // 
@@ -566,10 +551,9 @@ namespace GetUserDataServiceGUI
             this.buttonMinimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonMinimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
             this.buttonMinimize.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonMinimize.Location = new System.Drawing.Point(885, 1);
-            this.buttonMinimize.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonMinimize.Location = new System.Drawing.Point(664, 1);
             this.buttonMinimize.Name = "buttonMinimize";
-            this.buttonMinimize.Size = new System.Drawing.Size(64, 32);
+            this.buttonMinimize.Size = new System.Drawing.Size(48, 26);
             this.buttonMinimize.TabIndex = 28;
             this.buttonMinimize.Text = "_";
             this.buttonMinimize.UseVisualStyleBackColor = false;
@@ -579,28 +563,25 @@ namespace GetUserDataServiceGUI
             // 
             this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.panel5.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.panel5.Location = new System.Drawing.Point(287, 451);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel5.Location = new System.Drawing.Point(215, 366);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(41, 37);
+            this.panel5.Size = new System.Drawing.Size(31, 30);
             this.panel5.TabIndex = 29;
             // 
             // tbClientPort
             // 
             this.tbClientPort.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbClientPort.Location = new System.Drawing.Point(144, 87);
-            this.tbClientPort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbClientPort.Location = new System.Drawing.Point(108, 71);
             this.tbClientPort.Name = "tbClientPort";
-            this.tbClientPort.Size = new System.Drawing.Size(213, 30);
+            this.tbClientPort.Size = new System.Drawing.Size(161, 26);
             this.tbClientPort.TabIndex = 3;
             // 
             // tbClientHost
             // 
             this.tbClientHost.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbClientHost.Location = new System.Drawing.Point(144, 49);
-            this.tbClientHost.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbClientHost.Location = new System.Drawing.Point(108, 40);
             this.tbClientHost.Name = "tbClientHost";
-            this.tbClientHost.Size = new System.Drawing.Size(213, 30);
+            this.tbClientHost.Size = new System.Drawing.Size(161, 26);
             this.tbClientHost.TabIndex = 32;
             // 
             // contextMenuStrip1
@@ -611,10 +592,10 @@ namespace GetUserDataServiceGUI
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.ClientSize = new System.Drawing.Size(1013, 497);
+            this.ClientSize = new System.Drawing.Size(760, 404);
             this.Controls.Add(this.tbClientHost);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.buttonMinimize);
@@ -635,7 +616,6 @@ namespace GetUserDataServiceGUI
             this.Controls.Add(this.label5);
             this.Controls.Add(this.labelRemoteHost);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "MainForm";
             this.Text = "ARM to moxa bidi";
             this.Activated += new System.EventHandler(this.MainFormActivated);
