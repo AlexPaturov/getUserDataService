@@ -174,27 +174,27 @@ namespace GetUserDataServiceGUI
 
             switch (Encoding.GetEncoding(1251).GetString(clientComandArr))
             {
-                case "<Request method='set_mode' parameter='Static'/>":     // 1)
+                case "<Request method='enother_0 command'/>":       // 1)
                     controllerCommand = null;
                     break;
 
-                case "<Request method='getPcName'/>":                        // 2)
+                case "<Request method='getPcName'/>":               // 2)
                     controllerCommand = "getPcName";
                     break;
 
-                case "<Request method='9'/>":                      // 3) получить вес, взвешивание в статике
+                case "<Request method='enother_1 command'/>":       // 3) получить вес, взвешивание в статике
                     controllerCommand = null;
                     break;
 
-                case "<Request method='set_zero' parameter='0'/>":          // 4)
+                case "<Request method='enother_2 command'/>":       // 4)
                     controllerCommand = null;
                     break;
 
-                case "<Request method='j'/>":                  // 5)
+                case "<Request method='enother_3 command'/>":       // 5)
                     controllerCommand = null;
                     break;
 
-                default:                                                    // 6) Команда полученная от клиента - не распознана.
+                default:                                            // 6) Команда полученная от клиента - не распознана.
                     controllerCommand = null;
                     break;
             }
